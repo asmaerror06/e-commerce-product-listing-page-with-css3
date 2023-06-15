@@ -1,0 +1,64 @@
+body {
+    padding: 5rem;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.navigate {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 35%;
+    margin-left: auto;
+    height: 3rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+
+}
+
+.icon-container {
+    width: 1.5rem;
+    direction: flex;
+    margin-right: .5rem;
+}
+
+.link:hover {
+    text-decoration: underline;
+
+}
+
+.link {
+    display: inline-block;
+    width: 5rem;
+}
+
+.sep {
+    display: inline-block;
+    width: 3rem;
+    font-size: 1.4rem;
+    color: gray;
+
+}
+
+@font-face {
+    font-family: AllertaStencil;
+    src: url(./Allerta_Stencil/AllertaStencil-Regular.ttf);
+}
+
+.logo {
+    font-family: "AllertaStencil";
+    font-size: 35px;
+
+}
+
+.logo .first-letter {
+    color: #A18A68;
+}
